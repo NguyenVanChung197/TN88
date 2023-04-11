@@ -1,0 +1,36 @@
+.register-location {
+    margin: 70px 0;
+  }
+  
+  .register-title {
+    font-family: $main-font;
+    border: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: $main-bg-color;
+    background-color: white;
+    margin-top: 16px;
+  }
+  
+  .register-label {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .register-input {
+    background-color: rgb(226, 226, 226);
+    border: 1px solid black;
+  }
+  
+  .btn-register {
+    margin-bottom: 20px;
+  }
+  

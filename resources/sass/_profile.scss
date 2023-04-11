@@ -1,0 +1,144 @@
+.container-fluid.profile {
+    background-color: gray;
+    height: 900px;
+  }
+  
+  .profile-left {
+    margin-top: 55px;
+    max-width: 20%;
+  
+    .infor {
+      width: 240px;
+      text-align: center;
+  
+      .avatar {
+        border-radius: 50%;
+        width: 240px;
+        height: 240px;
+      }
+  
+      .name {
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+      }
+  
+      .email {
+        border-bottom: 2px solid gray;
+        // font-family: $main-font;
+        font-weight: 400;
+        font-size: 18px;
+        color: black;
+      }
+  
+      .infor-description {
+        text-align: justify;
+        // font-family: $main-font;
+        font-weight: 400;
+        font-size: 18px;
+        color: black;
+      }
+  
+      .first-infor {
+        line-height: 30px;
+      }
+    }
+  }
+  
+  .detail-infor {
+    width: 270px;
+    text-align: left;
+    margin-left: -35px;
+  }
+  
+  .detail-infor-item {
+    .item-card {
+      list-style: none;
+      border-bottom: 2px solid gray;
+      height: 33px;
+      margin: 20px 0;
+  
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        // font-family: $main-font;
+        color: black;
+      }
+  
+      span {
+        margin-right: 20px;
+      }
+  
+      .font-birth {
+        color: orange;
+      }
+  
+      .font-phone {
+        color: green;
+      }
+  
+      .font-address {
+        color: gray;
+      }
+    }
+  }
+  .profile-right {
+    margin: 150px 0 0 0;
+  
+    .title-main {
+      border-bottom: 1px solid green;
+    //   font-family: $main-font;
+      color: black;
+      font-weight: bold;
+      font-size: 38px;
+      padding-bottom: 15px;
+    }
+  
+    .line {
+      border-bottom: 1px solid green;
+      margin-top: -14px;
+    }
+  }
+  .courses-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 20px;
+  
+    .course-item {
+      margin: 0 15px;
+  
+      .photo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+  
+      .course-name {
+        transform: translate(-20px, 10px);
+      }
+    }
+  }
+  
+  .form-profile {
+    width: 950px;
+    line-height: 35px;
+  
+    .title-label {
+      max-width: 165px;
+      font-weight: 700;
+      font-size: 17px;
+    //   font-family: $main-font;
+      color: black;
+    }
+  
+    .about-textarea {
+      resize: both;
+      height: 110px;
+    }
+  
+    .btn-update {
+      margin-top: 25px;
+    }
+  }
